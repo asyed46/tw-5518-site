@@ -33,6 +33,7 @@ h1, p {
 .column > div {
   border: 1px solid #000;
   height: 625px;
+  overflow: a;
 }
 
 .column > div > h1, p {
