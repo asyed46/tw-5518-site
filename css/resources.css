@@ -18,27 +18,28 @@ h1, p {
   font-size: 48px;
 }
 
-.coming-soon h1 {
-  margin: 50px auto 30% auto;
-  text-align: center;
-  font-size: 36px;
-  letter-spacing: 2px;
-}
+
 .column {
   display: inline-block;
   font-size: 100%;
 }
 
 .column > div {
-  border: 1px solid #000;
+/*  border: 1px solid #000;
   height: auto;
-  width: auto; 
-  height: auto;
+  width: 100%;
+  vertical-align: */
 }
 
-.column > div > h1, p {
-  text-align: left;
-  margin-top: 5px;
-  margin-left: 2.5px;
-  margin-right: 2.5spx;
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+
+/*    vertical-align: center;
+    width: 100%;*/
+    font-size: 150%;
 }
