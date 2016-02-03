@@ -1,0 +1,44 @@
+h1, p {
+  font-family: 'Open Sans';
+}
+
+.title {
+  background-image: url('../img/banner.png');
+  height: 300px;
+  width: 100%;
+}
+
+.title > .subcontent {
+  position: relative;
+  top: 60%;
+}
+
+.title > .subcontent > h1 {
+  letter-spacing: 2px;
+  font-size: 48px;
+}
+
+.row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 50px;
+}
+
+.column {
+  display: table-cell;
+  font-size: 150%;
+}
+
+.column > div {
+  border: 1px solid #000;
+  height: 625px;
+  overflow: a;
+}
+
+.column > div > h1, p {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
